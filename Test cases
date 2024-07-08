@@ -1,0 +1,108 @@
+1. Test Planning
+
+Scope of Testing:
+- Evaluate the overall functionality and usability of the Syook.com website.
+- Focus on critical functionalities such as navigation, user registration, login, and core features presented on the site.
+
+Types of Tests:
+- Functional Testing: Verify that all functionalities of the application are working as expected.
+- Usability Testing: Assess how user-friendly and intuitive the website is.
+- Compatibility Testing: Ensure the website functions correctly across different browsers and devices.
+
+Test Environment and Resources:
+- Browsers: Chrome, Firefox, Safari, Edge
+- Devices: Desktop, Tablet, Mobile
+- Tools: Browser Developer Tools, Screenshot Tools
+
+2. Test Case Design
+
+Template for Designing Test Cases:
+Test Case ID : Unique identifier for each test case.
+Test Description : Brief description of the test case.
+Preconditions : Any setup needed before executing the test.
+Test Steps : Detailed steps to execute the test.
+Expected Result: What the expected outcome of the test is.
+Actual Result: The actual outcome after executing the test.
+Status: Pass/Fail based on the comparison between expected and actual results.
+Comments : Any additional information or observations.
+
+Example Test Cases:
+
+1. Test Case ID: TC001
+   Test Description: Verify the home page loads successfully.
+   Preconditions: None
+   Test Steps: 
+     1. Open the browser.
+     2. Navigate to https://www.syook.com/.
+   Expected Result: Home page loads without errors.
+   Actual Result : Home page loaded successfully.
+   Status : Pass
+   Comments: None
+
+2. Test Case ID: TC002
+   Test Description: Verify user registration functionality.
+   Preconditions: None
+   Test Steps: 
+     1. Open the browser.
+     2. Navigate to https://www.syook.com/.
+     3. Click on the "Sign Up" button.
+     4. Fill in the registration form with valid data.
+     5. Submit the form.
+   Expected Result : User registration is successful, and a confirmation message is displayed.
+   Actual Result : Registration was successful.
+   Status: Pass
+   comments: None
+ 3. Execution of Tests
+
+Execution Process:
+- Follow the designed test cases and execute them systematically.
+- Record the results for each test case in the provided template.
+
+Sample Execution Record:
+
+Test Case ID: TC001
+  Status : Pass
+  Comments: Home page loaded without any issues.
+
+Test Case ID: TC002
+  Status: Pass
+  Comments: Registration process was smooth, and confirmation was received.
+
+ 4. Bug Reporting
+
+Bug Report Template:
+Bug ID: Unique identifier for each bug.
+Summary : Short description of the bug.
+Steps to Reproduce: Detailed steps to reproduce the issue.
+Expected Result: What should happen.
+Actual Result: What actually happened.
+Severity: Critical, Major, Minor, Trivial
+Screenshots: Attach if applicable.
+
+Example Bug Report:
+
+Bug ID: BUG001
+  Summary: Login button not working on mobile devices.
+  Steps to Reproduce: 
+    1. Open the browser on a mobile device.
+    2. Navigate to https://www.syook.com/.
+    3. Click on the "Login" button.
+  Expected Result: Login form should be displayed.
+  Actual Result : Nothing happens when the button is clicked.
+  Severity: Major
+  Screenshots: [Attach if applicable]
+
+5. Test Summary Report
+
+Summary of Testing Performed:**
+- Conducted functional, usability, and compatibility tests on Syook.com.
+- Executed XX test cases covering core functionalities.
+
+Key Findings:- Overall functionality is stable with minor issues identified.
+ Major issues: Login button not working on mobile devices.
+Minor issues: Minor UI inconsistencies and responsiveness issues on tablets.
+
+Recommendations:
+ Fix the major login issue on mobile devices.
+- Improve the website's responsiveness and UI consistency across all devices.
+- Conduct further testing after fixes to ensure issues are resolved.
